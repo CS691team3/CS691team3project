@@ -52,11 +52,19 @@
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <connections>
-                                                <action selector="createAccount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Imk-FH-OQN"/>
+                                                <action selector="forgetpassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTA-Y5-iBn"/>
                                             </connections>
                                         </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pace_logo" translatesAutoresizingMaskIntoConstraints="NO" id="evp-Uo-1ey">
+                                            <rect key="frame" x="88" y="132" width="241" height="128"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="128" id="Ibc-8H-ZSM"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="ZOt-Nd-nue"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="evp-Uo-1ey" firstAttribute="centerX" secondItem="RvM-4R-LaI" secondAttribute="centerX" id="Hzt-qu-tSI"/>
                                         <constraint firstItem="8xt-OE-xPf" firstAttribute="top" secondItem="hIW-DT-1GH" secondAttribute="top" id="JVK-eZ-Xb4"/>
                                         <constraint firstAttribute="bottom" secondItem="RvM-4R-LaI" secondAttribute="bottom" constant="80" id="M8P-hQ-LqT"/>
                                         <constraint firstAttribute="bottom" secondItem="8xt-OE-xPf" secondAttribute="bottom" id="Q16-ZA-fm8"/>
@@ -64,7 +72,9 @@
                                         <constraint firstAttribute="trailing" secondItem="uQL-Li-zkX" secondAttribute="trailing" constant="40" id="Y7V-Vf-Uw0"/>
                                         <constraint firstAttribute="trailing" secondItem="RvM-4R-LaI" secondAttribute="trailing" constant="25" id="af0-Rw-oj0"/>
                                         <constraint firstItem="uQL-Li-zkX" firstAttribute="leading" secondItem="hIW-DT-1GH" secondAttribute="leading" constant="40" id="b0A-OZ-2E2"/>
+                                        <constraint firstItem="evp-Uo-1ey" firstAttribute="leading" secondItem="hIW-DT-1GH" secondAttribute="leading" constant="88" id="cqk-be-baC"/>
                                         <constraint firstItem="8xt-OE-xPf" firstAttribute="leading" secondItem="hIW-DT-1GH" secondAttribute="leading" id="h8a-Hx-z6t"/>
+                                        <constraint firstItem="evp-Uo-1ey" firstAttribute="top" secondItem="hIW-DT-1GH" secondAttribute="top" constant="132" id="mFV-pa-FJy"/>
                                         <constraint firstItem="RvM-4R-LaI" firstAttribute="top" secondItem="uQL-Li-zkX" secondAttribute="bottom" constant="50" id="zBO-3d-ckj"/>
                                         <constraint firstAttribute="trailing" secondItem="8xt-OE-xPf" secondAttribute="trailing" id="zjy-Ew-2ww"/>
                                     </constraints>
@@ -1187,12 +1197,21 @@
                                                 <constraint firstAttribute="height" constant="135" id="6ft-Qv-xwN"/>
                                             </constraints>
                                         </stackView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pace_logo" translatesAutoresizingMaskIntoConstraints="NO" id="jAT-KA-XNy">
+                                            <rect key="frame" x="87" y="367" width="240" height="128"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="128" id="s9L-xV-bhY"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="jAT-KA-XNy" firstAttribute="centerX" secondItem="ATY-s9-mIq" secondAttribute="centerX" id="BG3-SD-buV"/>
                                         <constraint firstAttribute="trailing" secondItem="7Aj-MT-4sT" secondAttribute="trailing" id="C9l-DB-ODn"/>
+                                        <constraint firstItem="jAT-KA-XNy" firstAttribute="centerY" secondItem="ATY-s9-mIq" secondAttribute="centerY" id="EsT-Vd-H97"/>
                                         <constraint firstItem="7Aj-MT-4sT" firstAttribute="leading" secondItem="ATY-s9-mIq" secondAttribute="leading" id="Ew1-LG-uQu"/>
                                         <constraint firstAttribute="trailing" secondItem="GjI-rP-2L8" secondAttribute="trailing" constant="30" id="SSQ-ma-67O"/>
                                         <constraint firstAttribute="bottom" secondItem="7Aj-MT-4sT" secondAttribute="bottom" id="UPN-cI-TaN"/>
+                                        <constraint firstItem="jAT-KA-XNy" firstAttribute="leading" secondItem="ATY-s9-mIq" secondAttribute="leading" constant="87" id="VT0-lr-ITK"/>
                                         <constraint firstItem="GjI-rP-2L8" firstAttribute="centerX" secondItem="ATY-s9-mIq" secondAttribute="centerX" id="gu6-Kq-7cJ"/>
                                         <constraint firstAttribute="bottom" secondItem="GjI-rP-2L8" secondAttribute="bottom" constant="40" id="ja5-Gd-I6q"/>
                                         <constraint firstItem="7Aj-MT-4sT" firstAttribute="top" secondItem="ATY-s9-mIq" secondAttribute="top" id="qtp-7R-BwB"/>
@@ -1247,6 +1266,7 @@
     <resources>
         <image name="Goof" width="512" height="512"/>
         <image name="Straight" width="37.5" height="37.5"/>
+        <image name="pace_logo" width="75.839996337890625" height="75.839996337890625"/>
         <image name="reallsad" width="640" height="640"/>
         <image name="sailing" width="460.79998779296875" height="217"/>
     </resources>

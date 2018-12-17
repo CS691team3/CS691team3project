@@ -28,11 +28,15 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        //Saves users data 
+        //Saves users data
         if Auth.auth().currentUser != nil {
             self.presentLoginScreen()
         }
+        
+        
     }
+    
+    
 
     @IBAction func createAccount(_ sender: Any) {
         
@@ -45,6 +49,19 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
        
     }
+    
+    
+    @IBAction func forgetpassword(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Forget Password", message: "We will send you a new one check your email", preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     
     @IBAction func loginTapped(_ sender: Any) {
           if let email = emailInput.text, let password = passwordInput.text {
@@ -69,6 +86,9 @@ class ViewController: UIViewController {
                     return
                     
                 }
+                
+               
+                
                 
                 
             }
