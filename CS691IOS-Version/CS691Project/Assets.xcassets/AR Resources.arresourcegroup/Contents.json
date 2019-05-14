@@ -1,0 +1,50 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "AEntrance.arreferenceimage"
+    },
+    {
+      "filename" : "AGoStraight.arreferenceimage"
+    },
+    {
+      "filename" : "AMakeRight.arreferenceimage"
+    },
+    {
+      "filename" : "ARightKitchen.arreferenceimage"
+    },
+    {
+      "filename" : "AStraight.arreferenceimage"
+    },
+    {
+      "filename" : "BdestinationtoRight.arreferenceimage"
+    },
+    {
+      "filename" : "BMakeLeftt.arreferenceimage"
+    },
+    {
+      "filename" : "BNEwEntrance.arreferenceimage"
+    },
+    {
+      "filename" : "BStraight3.arreferenceimage"
+    },
+    {
+      "filename" : "BStraightt2.arreferenceimage"
+    },
+    {
+      "filename" : "CEntrance3.arreferenceimage"
+    },
+    {
+      "filename" : "CLounge2.arreferenceimage"
+    },
+    {
+      "filename" : "CMakeRight2.arreferenceimage"
+    },
+    {
+      "filename" : "imageAR.arreferenceimage"
+    }
+  ]
+}
